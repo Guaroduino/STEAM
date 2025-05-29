@@ -1,0 +1,30 @@
+{
+  "name": "steam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./public/css/style.css",
+    "watch:css": "tailwindcss -i ./assets/css/input.css -o ./public/css/style.css --watch",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guaroduino/STEAM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guaroduino/STEAM/issues"
+  },
+  "homepage": "https://github.com/Guaroduino/STEAM#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.8"
+  }
+}
